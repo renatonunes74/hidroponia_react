@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.objeto {
+	text-align: center;
+}
+.objeto {
+	/* scale: 2.5; */
+}
+body, corpo {
+	background-color: black;
+	font-family: tamzen;
+	color: white;
+}
+.Modal {
+	position: absolute;
+	top: 40px;
+	color: white;
+	left: 150px;
+	right: 150px;
+	bottom: 40px;
+	background-color: black;
+}
+.ativo {
+	background-color: green;
+}
+.mudanca {
+	background-color: orange;
+	color: black;
+}
+.limite {
+	background-color: green;
+}
+.conteudo {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+.log {
+	background-color: gray;
+	min-width: 200px;
+	height: auto
+}
+.container {
+	display: grid;
+	grid-template-columns: 10rem 10rem 10rem;
+	grid-gap: 1rem;
+	grid-auto-flow: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.objeto1 {
+	/* border: 1px solid #ccc; */
+	cursor: pointer;
+	width: 100px; /* Ajuste o tamanho conforme necessário */
+	height: auto; /* Ajuste o tamanho conforme necessário */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.objeto {
+	/* border: 1px solid #ccc; */
+	cursor: pointer;
+	width: 40px; /* Ajuste o tamanho conforme necessário */
+	height: auto; /* Ajuste o tamanho conforme necessário */
+	z-index: -1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ativo .bola {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: green;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.bola {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: green;
+	z-index: 10;
+	margin-left: 60%;
+	margin-top: -12px;
+	cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.borda {
+	/* border: 1px solid black; */
+}
+.nome {
+	/* background-color: #bcbcbc; */
+	font-weight: bold;
+	color: white;
+}
+.barra {
+	margin-left: -38px;
 }
