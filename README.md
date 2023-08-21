@@ -42,9 +42,9 @@
 
 ### Tecnologias usadas
 - Bibliotecas:
-	- [React](https://projectlombok.org/) 
-	- [React Grid Layout](https://projectlombok.org/) 
-	- [Xarrows Grid Layout](https://projectlombok.org/) 
+	- [React](https://react.dev/) 
+	- [React Grid Layout](https://github.com/react-grid-layout/react-grid-layout) 
+	- [React Xarrows](https://github.com/Eliav2/react-xarrows) 
 
 ## Quando usar
 - Quando precisar fazer manutenção, visualização da horta hidropônica.
