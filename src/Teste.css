@@ -1,0 +1,38 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: tamzen;
+}
+table {
+	text-align: center;
+}
+img, .objeto {
+	max-width: 100%; height: auto;
+}
+meter {
+	background: black;
+	border: 1px solid white;
+}
+meter:-moz-meter-optimum::-moz-meter-bar {
+	background: green;
+}
+.objeto {
+	width: 60px;
+}
+.status__on {
+	background-color: green;
+}
+.status__off {
+	background-color: red;
+}
+.container {
+	border: 1px solid #1b1b1b;
+	width: 150px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 5px;
+}
